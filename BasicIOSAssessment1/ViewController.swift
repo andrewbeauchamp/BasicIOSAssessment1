@@ -10,11 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var button: UIButton!
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var textField: UITextField!
     @IBAction func buttonTapped(_ sender: Any) {
         textInput = textField.text!
         label.text = textInput
+        textField.text = ""
     }
      var textInput = ""
     override func viewDidLoad() {

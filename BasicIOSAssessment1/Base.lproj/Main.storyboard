@@ -51,6 +51,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="button" destination="Enf-nV-k23" id="6KS-eS-xau"/>
                         <outlet property="label" destination="jZT-Vf-PRX" id="5P4-Vx-IX5"/>
                         <outlet property="textField" destination="TLQ-yQ-Fkj" id="AZl-Jw-hHC"/>
                     </connections>
